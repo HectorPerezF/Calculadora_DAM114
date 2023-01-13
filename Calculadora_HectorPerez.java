@@ -18,6 +18,7 @@ public class Calculadora {
         while (opcion != 0) {
             //Try catch para evitar que el programa termine si hay un error
             try {
+                System.out.println("¡Bienvenido al programa de operaciones!");
                 System.out.println("Elige opción:\n" + ""
                         + "1.- Sumar\n"
                         + "2.- Restar\n"
